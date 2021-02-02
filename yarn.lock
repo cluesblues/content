@@ -28,17 +28,17 @@
   dependencies:
     extend "3.0.2"
 
-"@mdn/yari@0.4.22":
-  version "0.4.22"
-  resolved "https://registry.yarnpkg.com/@mdn/yari/-/yari-0.4.22.tgz#6de17fb0b7f30664361b020a7c9a85d3aeebb7fc"
-  integrity sha512-E550hzxk5K+0kDUuz8/wqYvJXRNvLHIvcQ2Tex1yFz/MLE8/2opJHFqkrADMQxLNFvIGhQHk/QI9zzGO20XQZA==
+"@mdn/yari@0.4.38":
+  version "0.4.38"
+  resolved "https://registry.yarnpkg.com/@mdn/yari/-/yari-0.4.38.tgz#c0b267d1ba0301b976ce57ad54fbe6cc1dd2b99a"
+  integrity sha512-WnnprMdxjCKvbnzbVKyVhIYZ1AnsI99B5RGQdww0BoaRN2lznRAnl7ML6sE9hSWKb6sT5+pn5nUtbVqzWXB5Lg==
   dependencies:
     "@caporal/core" "2.0.2"
     "@mdn/browser-compat-data" "3.0.5"
     accept-language-parser "1.5.0"
     chalk "4.1.0"
     cheerio "1.0.0-rc.5"
-    cli-progress "^3.8.2"
+    cli-progress "^3.9.0"
     compression "1.7.4"
     cookie "0.4.1"
     cookie-parser "1.4.5"
@@ -61,7 +61,7 @@
     is-svg "4.2.1"
     js-yaml "4.0.0"
     mdn-data "2.0.16"
-    open "^7.3.1"
+    open "^7.4.0"
     open-editor "3.0.0"
     prismjs "1.23.0"
     prompts "^2.4.0"
@@ -633,10 +633,10 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-progress@^3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/cli-progress/-/cli-progress-3.8.2.tgz#abaf1fc6d6401351f16f068117a410554a0eb8c7"
-  integrity sha512-qRwBxLldMSfxB+YGFgNRaj5vyyHe1yMpVeDL79c+7puGujdKJHQHydgqXDcrkvQgJ5U/d3lpf6vffSoVVUftVQ==
+cli-progress@^3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/cli-progress/-/cli-progress-3.9.0.tgz#25db83447deb812e62d05bac1af9aec5387ef3d4"
+  integrity sha512-g7rLWfhAo/7pF+a/STFH/xPyosaL1zgADhI0OM83hl3c7S43iGvJWEAV2QuDOnQ8i6EMBj/u4+NTd0d5L+4JfA==
   dependencies:
     colors "^1.1.2"
     string-width "^4.2.0"
@@ -2771,10 +2771,10 @@ open-editor@3.0.0:
     line-column-path "^2.0.0"
     open "^7.3.0"
 
-open@^7.3.0, open@^7.3.1:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/open/-/open-7.3.1.tgz#111119cb919ca1acd988f49685c4fdd0f4755356"
-  integrity sha512-f2wt9DCBKKjlFbjzGb8MOAW8LH8F0mrs1zc7KTjAJ9PZNQbfenzWbNP1VZJvw6ICMG9r14Ah6yfwPn7T7i646A==
+open@^7.3.0, open@^7.4.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/open/-/open-7.4.0.tgz#ad95b98f871d9acb0ec8fecc557082cc9986626b"
+  integrity sha512-PGoBCX/lclIWlpS/R2PQuIR4NJoXh6X5AwVzE7WXnWRGvHg7+4TBCgsujUgiPpm0K1y4qvQeWnCWVTpTKZBtvA==
   dependencies:
     is-docker "^2.0.0"
     is-wsl "^2.1.1"
